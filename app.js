@@ -13,7 +13,7 @@ app2.use(bodyParser.urlencoded({extended: false}));
 app2.use(bodyParser.json());
 
 var con = mysql.createConnection({
-  host: "localhost",
+  host: "1.1.1.1",
   user: "root",
   password: "",
   database: "node_js_application"
